@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Projeto\\Faturamento\\ProjetoFaturamento\\ProjetoFaturamento.csproj": {}
+    "C:\\Projeto\\Faturamento\\FolhaPagamento\\ProjetoFaturamento.csproj": {}
   },
   "projects": {
-    "C:\\Projeto\\Faturamento\\ProjetoFaturamento\\ProjetoFaturamento.csproj": {
+    "C:\\Projeto\\Faturamento\\FolhaPagamento\\ProjetoFaturamento.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Projeto\\Faturamento\\ProjetoFaturamento\\ProjetoFaturamento.csproj",
+        "projectUniqueName": "C:\\Projeto\\Faturamento\\FolhaPagamento\\ProjetoFaturamento.csproj",
         "projectName": "ProjetoFaturamento",
-        "projectPath": "C:\\Projeto\\Faturamento\\ProjetoFaturamento\\ProjetoFaturamento.csproj",
+        "projectPath": "C:\\Projeto\\Faturamento\\FolhaPagamento\\ProjetoFaturamento.csproj",
         "packagesPath": "C:\\Users\\mayara.4023\\.nuget\\packages\\",
-        "outputPath": "C:\\Projeto\\Faturamento\\ProjetoFaturamento\\obj\\",
+        "outputPath": "C:\\Projeto\\Faturamento\\FolhaPagamento\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

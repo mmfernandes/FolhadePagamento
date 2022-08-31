@@ -1,0 +1,7 @@
+C:\Projeto\Faturamento\FolhaPagamento\obj\Debug\net6.0\ProjetoFaturamento.csproj.AssemblyReference.cache
+C:\Projeto\Faturamento\FolhaPagamento\obj\Debug\net6.0\ProjetoFaturamento.GeneratedMSBuildEditorConfig.editorconfig
+C:\Projeto\Faturamento\FolhaPagamento\obj\Debug\net6.0\ProjetoFaturamento.AssemblyInfoInputs.cache
+C:\Projeto\Faturamento\FolhaPagamento\obj\Debug\net6.0\ProjetoFaturamento.AssemblyInfo.cs
+C:\Projeto\Faturamento\FolhaPagamento\obj\Debug\net6.0\ProjetoFaturamento.csproj.CoreCompileInputs.cache
+C:\Projeto\Faturamento\FolhaPagamento\obj\Debug\net6.0\ProjetoFaturamento.MvcApplicationPartsAssemblyInfo.cs
+C:\Projeto\Faturamento\FolhaPagamento\obj\Debug\net6.0\ProjetoFaturamento.MvcApplicationPartsAssemblyInfo.cache

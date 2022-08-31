@@ -1,37 +1,48 @@
 using Microsoft.AspNetCore.Mvc;
-using API.Models;
+using Usuario.Models;
 using System.Collections.Generic; 
 
 namespace FolhaPagamento.Controllers
 {
-    [ApiController]
     [Route("api/colaborador")]
+    [ApiController]
 
     public class ColaboradorController : ControllerBase 
     {
-        //private static List<Usuario> usuario = new Lis<Usuario>(); 
+        private static List<Colaborador> colaboradores = new Lis<Colaborador>(); 
+        //GET: api/colaborador/listar
+
+        [HttpGet]
+        [Route("listar")]
+        public IActionResult Listar()
+        {
+            return Ok(colaboradores);
+        }
         
+        //POST: /api/usuario/cadastrar
         [HttpPost]
         [Route("cadastrar")]
 
         public IActionResult Cadastrar(
-            [FromBody]Colaboradores colaborador)
+            [FromBody]Colaborador colaborador)
             {
-                Colaboradores.Add(colaborador); 
+                colaboradores.Add(colaborador); 
                 return Created("", colaborador); 
             }
-
-        //cpf
-        [HttpPost]
-        [Route("cpf")]
-
-        public IActionResult CPF(
-            [FromBody] CPF cpf)
+    // buscar
+        [HttpGet]
+        [Route("buscar/{login}")]
+        public IActionResult Buscar([FromRoute] string login)
+        {
+            for (int i = 0; i < colaborador.Count; i++)
             {
-                cpf.Add(CPF); 
-                return Created("", cpf); 
+                if(colaborador[i].login.Equals(login))
+                {
+                    return Ok(colaborador[i]);
+                }
             }
-
+            return NotFound();
+        }
 
       
     }
