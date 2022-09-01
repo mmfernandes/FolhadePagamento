@@ -31,12 +31,12 @@ namespace FolhaPagamento.Controllers
             }
     // buscar
         [HttpGet]
-        [Route("buscar/{login}")]
-        public IActionResult Buscar([FromRoute] string login)
+        [Route("buscar/{cpf}")]
+        public IActionResult Buscar([FromRoute] string cpf)
         {
             for (int i = 0; i < colaborador.Count; i++)
             {
-                if(colaborador[i].login.Equals(login))
+                if(colaborador[i].cpf.Equals(cpf))
                 {
                     return Ok(colaborador[i]);
                 }
